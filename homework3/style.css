@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+
+
+nav {
+    width: 1600px;
+    height: 80px;
+    background-color: #232536;
+    font-family: montserrat;
+
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 90px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1280px;
+    height: 324px;
+    margin-top: 96px;
+    margin-left: 160px;
+    border: 1px solid #00000033;
+}
+
+.container h2 {
+    width: 729px;
+    height: 116px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+}
+
+.container p {
+    width: 719px;
+    height: 72px;
+    opacity: 87%;
+    margin-top: 24px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.line {
+    width: 16px;
+    margin-top: -10px;
+    margin-left: 170px;
+    border: 1px;
+    rotate: -90deg;
+    background: #00000033;
+    border: 1px solid #00000033;
+    align-self: center;
+}
+
+.person_inner {
+    width: 167px;
+    height: 32px;
+    top: 623px;
+    left: 160px;
+
+}
+
+.image {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    top: 623px;
+    left: 160px;
+
+}
+
+
+.person p {
+    width: 222px;
+    height: 24px;
+    margin-top: -34px;
+    margin-left: 200px;
+    opacity: 0.6px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.person_inner p {
+    width: 123px;
+    height: 24px;
+    margin-top: -34px;
+    margin-left: 50px;
+    opacity: 0.87px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+
+}
+
+.person {
+    width: 421px;
+    height: 32px;
+    margin-top: 32px;
+    left: 160px;
+    border: 1px;
+    border: 1px solid #00000033;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #232536;
+
+}
+
+.shape {
+    width: 24px;
+    height: 24px;
+    top: 200px;
+    left: 160px;
+    rotate: 90deg;
+    background-color: #FFD3AF;
+    margin-bottom: 24px;
+
+}
+
+.blogpost {
+    width: 1280px;
+    height: 1630px;
+    margin-top: 96px;
+    margin-left: 160px;
+}
+
+.blogpost img {
+    width: 1280px;
+    height: 386px;
+}
+
+.textcontainer {
+    width: 844px;
+    height: 1148px;
+    margin-top: 96px;
+    margin-left: 217px;
+}
+
+.textcontainer h3 {
+    width: 842px;
+    height: 108px;
+    margin-left: 2px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #232536;
+}
+
+.textcontainer p {
+
+    margin-top: 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #232536;
+}
+
+.textcontainer h4 {
+    margin-top: 24px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.cta {
+    width: 1280px;
+    height: 333px;
+    margin-top: 0px;
+    margin-left: 160px;
+    background: #666DFF;
+
+}
+
+.cta p {
+    width: 111px;
+    height: 20px;
+    transform: translate(96px, 96px);
+    
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+
+}
+.cta h3{
+    width: 488px;
+    height: 108px;
+    margin-top: 129px;
+    margin-left: 96px;
+font-family: Poppins;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0px;
+text-align: left;
+position: relative;
+
+}
+
+.subscribe{
+    position: absolute;
+    width: 454px;
+    height: 64px;
+    margin-left: 706px;
+    margin-top: -100px;
+    padding-left: 20px;
+}

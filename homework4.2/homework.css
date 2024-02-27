@@ -1,0 +1,334 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+header {
+    max-width: 1600px;
+    background-color: #232536;
+
+}
+
+.container {
+    max-width: 1600px;
+    padding: 0px 130px;
+    margin: 0 auto;
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+header nav ul li {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+
+}
+
+.clone_btn {
+    background-color: #232536;
+    border: none;
+}
+
+
+footer {
+    max-width: 1600px;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top_foot {
+    width: 1278px;
+    height: 416px;
+    display: flex;
+    
+}
+
+.line {
+    width: 268px;
+    border: 1px solid #00000014;
+    margin-top: 14px;
+}
+
+.list1 h2 {
+    width: 452px;
+    height: 116px;
+    margin-top: 32px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.list1 h4{
+    margin-top: 40px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.large{
+    margin-top: 28px;
+}
+.list1 p{
+   
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.list1 small{
+    margin-top: 16px;
+}
+
+ h6{
+    margin-top: 12px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.list2{
+    margin-left: 204px;
+    margin-top: 68px ;
+}
+.list3{
+    margin-left: 61px;
+    margin-top: 68px ;
+    width: 180px;
+height: 220px;
+
+}
+.list4{
+    margin-left: 58px;
+    margin-top: 68px ;
+    width: 97px;
+height: 184px;
+
+
+}
+.list3 li {
+    margin-top: 12px;
+}
+.list4 li {
+    margin-top: 12px;
+}
+.contact{
+    margin-top: 370px;
+    margin-left: 50px;
+}
+
+.bottom_foot {
+    background-color: #FFE6D2;
+    width: 1600px;
+    height: 80px;
+    display: flex;
+
+    align-items: center;
+    float: left;
+}
+
+.bottom_foot .logo_foot {
+    margin-left: 160px;
+}
+
+.bottom_foot label {
+    margin-left: 42px;
+}
+
+.bottom_foot .social_foot {
+    margin-left: 852px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    margin-top: 96px;
+    margin-left: 161px;
+    
+    width: 672px;
+    height: 816px;
+}
+.top_left{
+    display: flex;
+    flex-direction: column;
+   gap: 24px;
+}
+.shape{
+    width: 24px;
+height: 24px;
+
+background-color:  #FFD3AF;
+
+
+}
+.left .caption{
+    
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 3px;
+text-align: left;
+
+}
+
+.left h2{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.left p{
+    
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+   
+
+}
+
+input{
+    width: 405px;
+height: 40px;
+border:none;
+
+
+}
+
+
+form small{
+    
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 8px;
+}
+.line_int{
+    width: 405px;
+
+border: 1px;
+opacity: 0.2px;
+border: 1px solid #232536
+
+}
+textarea{
+    width: 405px;
+height: 124px;
+}
+
+form button{
+    width: 213px;
+height: 64px;
+border: none;
+margin-top: 56px;
+
+}
+
+.right{
+
+    width: 512px;
+height: 645px;
+background-color: #666DFF;
+margin-left: 93px;
+
+
+}
+.right .location{
+    margin-left: 96px;
+margin-top: 83px;}
+.rigth .location p{
+    margin-top: 24px;
+}
+.right p{
+    margin-top: 24px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+.right small{
+   
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+}
+.right .hours{
+    margin-left: 96px;
+    margin-top: 24px;
+}
+
+.right .contact_us{
+    margin-left: 96px;
+    margin-top: 28px;
+}
+.right img{
+    margin-left: 96px;
+    margin-top: 54px;
+}
+.right .map {
+   display: flex;
+   
+   align-items: center;
+margin-top: 96px;
+padding-left: 164px;
+
+}
